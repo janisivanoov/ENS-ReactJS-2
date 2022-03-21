@@ -3,10 +3,10 @@ const w3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/e1aff836d3a64d6a
 const ns = ENS.fromWeb3(w3);
 
 const connection = mysql.createConnection({
-	user: 'ens_user',
-  password: 'ens_password',
-  host: 'localhost',
-  database: 'ens',
+	user: '******',
+  password: '******',
+  host: '******',
+  database: '******',
 });
 
 connection.query(
